@@ -58,6 +58,7 @@ header nav a:hover {
 
 .container {
     margin-left: 30px;
+    margin-right: 30px;
 }
 
 .filme-principal .container {
@@ -105,10 +106,12 @@ header nav a:hover {
 
 .carrosel-filmes {
     margin-top: 20px;
+    padding-left: 30px;
 }
 
 .item {
    cursor: pointer;
+   width: 100%;
 }
 
 img{
@@ -119,4 +122,8 @@ img{
 
 .item:hover {
    border: 3px solid var(--vermelho);
+}
+
+.titulo-secao {
+    margin-bottom: 10px;
 }
